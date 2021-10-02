@@ -1,5 +1,4 @@
-
-# CodeLines
+# CodeTrouble
 ## About
 Loading ... <b>Compilation error</b>. Oh! I didn't declare that variable x. *corrected* </br>
 *Compile* Now.. Loading ... <b>Runtime error</b>. Wtf! ... Oh! The array size is 1000 and I entered 100. *corrected* </br>
@@ -37,6 +36,10 @@ Create a PR as per the format given below:
   <li>Edit, commit and push the changes in Submission folder of respective Task.</li>
   <li>Create the PR according to the format mentioned in the pull_request_template.md in the .github folder.</li>
 </ul>
+
+## Learning 
+If you are a beginner and want to get started on your competitive programming journey, then you can check out this [article by Sumit Kumar Sahu](https://medium.com/nybles/how-to-start-with-competitive-programming-f5ab41263aee) for some resources and guidance.
+
 
 ## Note
 It is totally upon the mentors to close the issue, you can't make any pull request after the issue is closed. Once your PR has some mistake and is closed you cant make any further PRs for that particular issue. Only first correct PR for each erronous bug/issue will be considered.
