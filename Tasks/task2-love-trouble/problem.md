@@ -23,9 +23,12 @@ sum of k over all test cases be less than 1000000
 
 Sample Input
 
+
+
 9
 
 1
+
 2
 
 3
@@ -42,7 +45,11 @@ Sample Input
 
 6969
 
+
+
 Sample Output
+
+
 
 2
 
