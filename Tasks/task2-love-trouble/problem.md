@@ -24,14 +24,23 @@ sum of k over all test cases be less than 1000000
 Sample Input
 
 9
+
 1
+
 2
+
 3
+
 4
+
 23
+
 69
+
 535
+
 1234
+
 6969
 
 Sample Output
