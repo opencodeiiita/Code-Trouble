@@ -26,7 +26,6 @@ Sample Input
 9
 
 1
-
 2
 
 3
