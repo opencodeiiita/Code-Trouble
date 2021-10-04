@@ -27,12 +27,9 @@ Whoever wishes to participate in this project must follow these guidelines:
 </ul>
 
 ## How to contribute
-Create a PR as per the format given below:
 <ul>
-  <li>On your local machine, go to the project folder.</li>
-  <li>Go inside the "tasks" folder and go to the Task folder in which you want to solve the issues. (for example "Task 1").</li>
-  <li>Read and understand the problem statement and the code given in the particular task folder.</li>
-  <li>Find the bug.</li>
+  <li>Fork and clone the repository</li>
+  <li>Complete the Task as given in its *problem.md*.</li>
   <li>Edit, commit and push the changes in Submission folder of respective Task.</li>
   <li>Create the PR according to the format mentioned in the pull_request_template.md in the .github folder.</li>
 </ul>
