@@ -1,7 +1,9 @@
+// Final code
+
 #include "bits/stdc++.h"
 using namespace std;
 #define ll long long
-vector<ll> dp(400001, 0);
+vector<ll> dp(400001, -1);
 ll solve(ll i, ll mod) {
     return dp[i] % mod;
 }
@@ -17,17 +19,20 @@ ll binpow(ll a, ll b, ll mod) {
     return res;
 }
 ll combitorics(ll n, ll r, ll mod) {
-    ll denominator = (((solve(r, mod)) * (solve(n - r, mod))) % mod) % mod;
-    ll numerator = (solve(n, mod)) % mod;
-    ll expo = (binpow(denominator, mod - 2, mod)) % mod;
+    ll denominator = ((solve(r, mod)) * (solve(n - r, mod))) % mod;
+    ll numerator = solve(n, mod);
+    ll expo = binpow(denominator, mod - 2, mod);
     expo = (expo * numerator) % mod;
     return expo;
 }
 int main() {
-
+#ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+#endif
     ll t; cin >> t;
     ll mod = 1000000007;
-    dp[0] = 1; dp[1] = 1;
+    dp[0] = 1;
     for (ll i = 1; i < 400001; i++)dp[i] = (dp[i - 1] * i) % mod;
     while (t--) {
         ll k;
@@ -35,10 +40,11 @@ int main() {
 
         ll ans = 0;
         for (ll i = 0; i <= 2 * k; i++) {
-            if ( (i + 1) >= 2 * k || i - (k - 1) < 0)continue;
+            if (i - (k - 1) >= k || i - (k - 1) < 0)continue;
             ans = (ans + combitorics(i, k - 1, mod)) % mod;
         }
-        ans = (ans * 2) % mod;
+        ans *= 2;
+        ans %= mod;
         cout << ans << endl;
     }
 }
