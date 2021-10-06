@@ -4,26 +4,27 @@ using namespace std;
 vector<ll> dp(100001, 0);
 void factorial(ll i, ll mod) // finding factorial of i
 {
-    dp[i];
+    dp[0]=0;
+    for(int j=1;j<=i;j++) dp[j]=(j*dp[j-1])%mod;
+    
 }
-void binpow(ll a, ll b, ll mod) // (finding a^b)%mod
+int binpow(ll a, ll b, ll mod) // (finding a^b)%mod
 {
-    ll res = 1;
-    a = a % mod;
-    while (b > 0) {
-        if (b & 0)
-            res = (res * a) % mod;
-        a = (a ^ 2) % mod;
-        b >> 1;
-    }
-    return res;
+    if (b == 0)
+        return 1;
+    long long res = binpow(a, b / 2,mod);
+    if (b % 2)
+        return ((res * res)%mod * a%mod)%mod;
+    else
+        return (res * res)%mod;
 }
-void combitorics(ll n, ll r, ll mod) // finging combinations (nCr)%mod
+int combitorics(ll n, ll r, ll mod) // finging combinations (nCr)%mod
 {
-    ll numerator = factorial(n - 1, mod);
-    ll denominator = ((factorial(r - 1, mod)) * (factorial(n - r - 1, mod))) % mod;
-    ll expo = binpow(denominator, mod, mod);
-    expo = (expo * denominator) % mod; // finging inverse
+    factorial(n,mod);
+    ll numerator = dp[n];
+    ll denominator = (dp[r]* dp[n-r]) % mod;
+    ll expo = binpow(denominator, mod-2, mod);
+    expo = (expo * numerator) % mod; // finging inverse
     return expo;
 }
 int main() {
