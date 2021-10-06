@@ -506,27 +506,27 @@
         "Instagram": "url"
     },
     {
-        "Name": "your name",
-        "College": "college name",
-        "Passout Year": "YYYY",
+        "Name": "Surya Kant",
+        "College": "IIITA",
+        "Passout Year": "2023",
         "Song that defines your relationship status": [
-            "Name",
-            "link"
+            "Astronomia",
+            "https://www.youtube.com/watch?v=iLBBRuVDOo4"
         ],
         "Your favourite hindi song": [
-            "Name",
-            "link"
+            "KSHMR & Lost Stories - Bombay Dreams",
+            "https://www.youtube.com/watch?v=EW4pNzAbVao"
         ],
         "Best youtube video you ever watched": [
-            "Name",
-            "link"
+            "Gypsy kid dancing at club can't be bothered",
+            "https://youtu.be/3eRBFkxgG7g"
         ],
-        "Most useless skill you have": "add here",
-        "Codechef id": "url",
-        "Codeforces id": "url",
-        "Atcoder id": "url",
-        "Discord username": "username",
-        "Instagram": "url"
+        "Most useless skill you have": "Overthinking",
+        "Codechef id": "surya_kant",
+        "Codeforces id": "surya_kant",
+        "Atcoder id": "surya_kant",
+        "Discord username": "surya_kant",
+        "Instagram": "suryaskant29"
     },
     {
         "Name": "your name",
