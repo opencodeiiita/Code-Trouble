@@ -2138,28 +2138,28 @@
         "Discord username": "username",
         "Instagram": "url"
     },
-    {
-        "Name": "your name",
-        "College": "college name",
-        "Passout Year": "YYYY",
+   {
+        "Name": "Anushka Kalwale",
+        "College": "IIIT Allahabad",
+        "Passout Year": "2024",
         "Song that defines your relationship status": [
-            "Name",
-            "link"
+            "Wildest dream",
+            "https://youtu.be/IdneKLhsWOQ"
         ],
         "Your favourite hindi song": [
-            "Name",
-            "link"
+            "Khairiyat",
+            "https://youtu.be/9-AKLAfpjrI"
         ],
         "Best youtube video you ever watched": [
-            "Name",
-            "link"
+            "One Direction-What makes You Beautiful(Live)",
+            "https://youtu.be/r-skZimFOOI"
         ],
-        "Most useless skill you have": "add here",
-        "Codechef id": "url",
-        "Codeforces id": "url",
-        "Atcoder id": "url",
-        "Discord username": "username",
-        "Instagram": "url"
+        "Most useless skill you have": "Sleeping",
+        "Codechef id": "https://www.codechef.com/users/anu_1989",
+        "Codeforces id": "https://codeforces.com/profile/kalwaleanushka",
+        "Atcoder id": "https://atcoder.jp/users/rahul2002singh",
+        "Discord username": "AnU1989#4995",
+        "Instagram": "https://www.instagram.com/anushka_kalwale13/"
     },
     {
         "Name": "your name",
@@ -2298,5 +2298,5 @@
         "Atcoder id": "https://atcoder.jp/users/rahul2002singh",
         "Discord username": "aquastorm",
         "Instagram": "https://www.instagram.com/rahul_sudo/"
-    }
+    },
 ]
