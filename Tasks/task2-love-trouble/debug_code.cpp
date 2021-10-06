@@ -1,45 +1,36 @@
 #include "bits/stdc++.h"
 using namespace std;
 #define ll long long
-vector<ll> dp(1000001, 0);
-void factorial(ll mod) // finding factorial of i
+vector<ll> dp(400010, 0);
+ll factorial(ll i, ll mod) // finding factorial of i
 {
-    dp[0] = 1;
-    dp[1] = 1;
-    for(int i=2;i<1000001;i++){
-        dp[i] = (dp[i-1]*i)%mod; 
-    }
+    return dp[i]%mod;
 }
-
-long long binpow(ll a, ll b, ll mod) // (finding a^b)%mod
+ll binpow(ll a, ll b, ll mod) // (finding a^b)%mod
 {
-    ll res = 1;
-    a = a % mod;
-    while (b > 0) {
-        if (b%2){
-            res = (res * a) % mod;
-            b--;
-        }
-        else{
-        a = (a*a) % mod;
-        b/=2;
-        }
-    }
-    return res%mod;
+    if(a==0||a==1) return a;
+    if(b==0) return 1;
+    ll ret= binpow(a,b/2,mod);
+    if(b%2) return (((ret*ret)%mod)*a)%mod;
+    else return (ret*ret)%mod;
 }
-
-long long combitorics(ll n, ll r, ll mod) // finging combinations (nCr)%mod
+ll combitorics(ll n, ll r, ll mod) // finding combinations (nCr)%mod
 {
-    ll numerator = dp[n];
-    ll denominator = (dp[r]* dp[n-r]) % mod;
-    ll expo = binpow(denominator, mod-2, mod);
-    expo = (expo * numerator) % mod; // finging inverse
+    ll numerator = factorial(n, mod);
+    ll denominator = (factorial(r , mod))%mod;
+    ll expo = binpow(denominator, mod-2, mod)%mod;
+    denominator = (factorial(n-r , mod))%mod;
+    expo= (expo*(binpow(denominator, mod-2, mod)%mod))%mod;
+    expo = (expo * numerator) % mod; // finding inverse
+
     return expo;
 }
 
 int main() {
     ll t; cin >> t;
+    dp[0]=1;
     ll mod = 1000000007;
+
     factorial(mod);
     while (t--) {
         ll k;
