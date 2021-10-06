@@ -2277,26 +2277,26 @@
         "Instagram": "url"
     },
     {
-        "Name": "your name",
-        "College": "college name",
-        "Passout Year": "YYYY",
+        "Name": "Rahul Singh",
+        "College": "IIIT Allahabad",
+        "Passout Year": "2024",
         "Song that defines your relationship status": [
-            "Name",
-            "link"
+            "Blinding Lights",
+            "https://www.youtube.com/watch?v=fHI8X4OXluQ"
         ],
         "Your favourite hindi song": [
-            "Name",
-            "link"
+            "Tum se hi",
+            "https://www.youtube.com/watch?v=I94fhjQ-U30"
         ],
         "Best youtube video you ever watched": [
-            "Name",
-            "link"
+            "The cutest gangsta I know. My wife.",
+            "https://www.youtube.com/watch?v=b8_H6P8kZ3Y"
         ],
-        "Most useless skill you have": "add here",
-        "Codechef id": "url",
-        "Codeforces id": "url",
-        "Atcoder id": "url",
-        "Discord username": "username",
-        "Instagram": "url"
+        "Most useless skill you have": "pen spinning",
+        "Codechef id": "https://www.codechef.com/users/rahulsingh_20",
+        "Codeforces id": "https://codeforces.com/profile/rahulsingh-20",
+        "Atcoder id": "https://atcoder.jp/users/rahul2002singh",
+        "Discord username": "aquastorm",
+        "Instagram": "https://www.instagram.com/rahul_sudo/"
     }
 ]
