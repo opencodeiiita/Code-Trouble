@@ -1,5 +1,4 @@
-[
-    {
+[{
         "Name": "James Thomas",
         "College": "Indian Institute of Technology, Varanasi",
         "Passout Year": "2024",
@@ -207,27 +206,27 @@
         "Instagram": "url"
     },
     {
-        "Name": "your name",
-        "College": "college name",
-        "Passout Year": "YYYY",
+        "Name": "Sneh Shah",
+        "College": "IIIT Allahabad",
+        "Passout Year": "2024",
         "Song that defines your relationship status": [
-            "Name",
-            "link"
+            "Remember the Name",
+            "https://www.youtube.com/watch?v=ZZOG7HfBVzc"
         ],
         "Your favourite hindi song": [
-            "Name",
-            "link"
+            "Blue eyes",
+            "https://www.youtube.com/watch?v=NbyHNASFi6U"
         ],
         "Best youtube video you ever watched": [
-            "Name",
-            "link"
+            "Uzumaki Naruto 「ASMV」~ Becoming A Legend ",
+            "https://www.youtube.com/watch?v=NaiZLpFmp18"
         ],
-        "Most useless skill you have": "add here",
-        "Codechef id": "url",
-        "Codeforces id": "url",
-        "Atcoder id": "url",
-        "Discord username": "username",
-        "Instagram": "url"
+        "Most useless skill you have": "Making stickers",
+        "Codechef id": "https://www.codechef.com/users/sneh_7896",
+        "Codeforces id": "https://codeforces.com/profile/snehshah1675",
+        "Atcoder id": "https://atcoder.jp/users/Immortals",
+        "Discord username": "IMMORTAL#9976",
+        "Instagram": "https://www.instagram.com/sneh.shah.71404/"
     },
     {
         "Name": "your name",
