@@ -4,7 +4,7 @@ using namespace std;
 vector<ll> dp(100001, 0);
 void factorial(ll i, ll mod) // finding factorial of i
 {
-    dp[0]=0;
+    dp[0]=1;
     for(int j=1;j<=i;j++) dp[j]=(j*dp[j-1])%mod;
     
 }
