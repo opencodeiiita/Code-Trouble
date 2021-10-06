@@ -1,5 +1,28 @@
 [
     {
+        "Name": "Neeraj Gupta",
+        "College": "Indian Institute of Information Technology Allahabad",
+        "Passout Year": "2024",
+        "Song that defines your relationship status": [
+            "Soch Na Sake",
+            "https://www.youtube.com/results?search_query=Soch+Na+Sake"
+        ],
+        "Your favourite hindi song": [
+            "Main Pal Do Pal Ka Shair Hoon",
+            "https://www.youtube.com/watch?v=QkGqpVYjLUw"
+        ],
+        "Best youtube video you ever watched": [
+            "The Kapil Sharma Show - Ep.45 ",
+            "https://www.youtube.com/watch?v=DVV63FRo-T4"
+        ],
+        "Most useless skill you have": "Always non-punctual",
+        "Codechef id": "https://www.codechef.com/users/guptneer09",
+        "Codeforces id": "https://codeforces.com/profile/neerajgupta0912",
+        "Atcoder id": "https://atcoder.jp/users/code_lord09",
+        "Discord username": "neeraj.gupta09",
+        "Instagram": "https://www.instagram.com/neeraj.gupta09/"
+    },
+    {
         "Name": "James Thomas",
         "College": "Indian Institute of Technology, Varanasi",
         "Passout Year": "2024",
@@ -21,6 +44,7 @@
         "Atcoder id": "https://atcoder.jp/users/imjt007",
         "Discord username": "JamesThomas#3464",
         "Instagram": "https://www.instagram.com/james_thmas/"
+
     },
     {
         "Name": "Deepika Kumari",
