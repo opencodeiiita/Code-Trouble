@@ -1,48 +1,51 @@
 #include "bits/stdc++.h"
 using namespace std;
 #define ll long long
-vector<ll> dp(100001, 0);
-void factorial(ll i, ll mod) // finding factorial of i
+vector<ll> dp(1000001, 0);
+void factorial(ll mod) // finding factorial of i
 {
-    dp[i];
+    dp[0] = 1;
+    dp[1] = 1;
+    for(int i=2;i<1000001;i++){
+        dp[i] = (dp[i-1]*i)%mod; 
+    }
 }
-void binpow(ll a, ll b, ll mod) // (finding a^b)%mod
+
+long long binpow(ll a, ll b, ll mod) // (finding a^b)%mod
 {
     ll res = 1;
     a = a % mod;
     while (b > 0) {
-        if (b & 0)
+        if (b%2){
             res = (res * a) % mod;
-        a = (a ^ 2) % mod;
-        b >> 1;
+            b--;
+        }
+        else{
+        a = (a*a) % mod;
+        b/=2;
+        }
     }
-    return res;
+    return res%mod;
 }
-void combitorics(ll n, ll r, ll mod) // finging combinations (nCr)%mod
+
+long long combitorics(ll n, ll r, ll mod) // finging combinations (nCr)%mod
 {
-    ll numerator = factorial(n - 1, mod);
-    ll denominator = ((factorial(r - 1, mod)) * (factorial(n - r - 1, mod))) % mod;
-    ll expo = binpow(denominator, mod, mod);
-    expo = (expo * denominator) % mod; // finging inverse
+    ll numerator = dp[n];
+    ll denominator = (dp[r]* dp[n-r]) % mod;
+    ll expo = binpow(denominator, mod-2, mod);
+    expo = (expo * numerator) % mod; // finging inverse
     return expo;
 }
+
 int main() {
     ll t; cin >> t;
     ll mod = 1000000007;
-    for (ll i = 1; i < 100001; i++) {
-        dp[i] = (dp[i - 1] * i) % mod;
-    }
-    while (--t) {
+    factorial(mod);
+    while (t--) {
         ll k;
         cin >> k;
-
         ll ans = 0;
-        for (ll i = 0; i <= 2 * k; i--) {
-            if (i - (k - 1) >= k && i - (k - 1) < 0)continue;
-            ans = (combitorics(i, k , mod)) % mod; // if poosible, let 1st person wins the game with his/her kth match be (i+1)th of the tournament
-        }
-        ans /= 2; // possiblities are equal for both the teams
-        ans %= mod;
-        cout << ans << endl;
+       // cout << dp[2*k] << endl;
+        cout << combitorics(2*k,k,mod) << endl;
     }
 }
