@@ -230,27 +230,27 @@
         "Instagram": "https://www.instagram.com/ms_giggless/"
     },
     {
-        "Name": "your name",
-        "College": "college name",
-        "Passout Year": "YYYY",
+        "Name": "Anushtha Bageria",
+        "College": "IIITA",
+        "Passout Year": "2024",
         "Song that defines your relationship status": [
-            "Name",
-            "link"
+            "Sadka hua",
+            "https://youtu.be/9hIgYEF42so"
         ],
         "Your favourite hindi song": [
-            "Name",
-            "link"
+            "kya mujhe pyaar hai",
+            "https://youtu.be/lrAM_H7v8wM"
         ],
         "Best youtube video you ever watched": [
-            "Name",
-            "link"
+            "Funniest Animals ",
+            "https://youtu.be/z6EchXyieos"
         ],
         "Most useless skill you have": "add here",
-        "Codechef id": "url",
-        "Codeforces id": "url",
-        "Atcoder id": "url",
-        "Discord username": "username",
-        "Instagram": "url"
+        "Codechef id": "https://www.codechef.com/users/phoenix30",
+        "Codeforces id": "https://codeforces.com/profile/anu_phoenix",
+        "Atcoder id": "https://atcoder.jp/users/anu_phoenix",
+        "Discord username": "phoenix",
+        "Instagram": "https://www.instagram.com/anushtha_bageria/"
     },
     {
         "Name": "your name",
@@ -2299,4 +2299,5 @@
         "Discord username": "aquastorm",
         "Instagram": "https://www.instagram.com/rahul_sudo/"
     }
+    
 ]
