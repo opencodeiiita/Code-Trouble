@@ -253,27 +253,27 @@
         "Instagram": "url"
     },
     {
-        "Name": "your name",
-        "College": "college name",
-        "Passout Year": "YYYY",
+        "Name": "Abhay Parihar",
+        "College": "IIITA",
+        "Passout Year": "2024",
         "Song that defines your relationship status": [
-            "Name",
-            "link"
+            "Ye Dooriyan",
+            "https://www.youtube.com/watch?v=3EfX3kAM1Ks&t=8s"
         ],
         "Your favourite hindi song": [
-            "Name",
-            "link"
+            "Kaise mujhe tum mil gayi",
+            "https://www.youtube.com/watch?v=xsT31DkheHY"
         ],
         "Best youtube video you ever watched": [
-            "Name",
-            "link"
+            "Dosto ke liye kuch line (Use Headphones)",
+            "https://www.youtube.com/watch?v=nkg3sBgLpIo"
         ],
-        "Most useless skill you have": "add here",
-        "Codechef id": "url",
-        "Codeforces id": "url",
-        "Atcoder id": "url",
-        "Discord username": "username",
-        "Instagram": "url"
+        "Most useless skill you have": "Faltu Jokes",
+        "Codechef id": "https://www.codechef.com/users/as_spiralforge",
+        "Codeforces id": "https://codeforces.com/profile/SpiralForge",
+        "Atcoder id": "https://atcoder.jp/users/SpiralForge",
+        "Discord username": "SpiralForge",
+        "Instagram": "https://www.instagram.com/spiralforge_"
     },
     {
         "Name": "your name",
