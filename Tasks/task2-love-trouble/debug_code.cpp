@@ -1,42 +1,48 @@
 #include "bits/stdc++.h"
 using namespace std;
 #define ll long long
-vector<ll> dp(400010, 0);
-ll factorial(ll i, ll mod) // finding factorial of i
-{
-    return dp[i]%mod;
+vector<ll> dp(400001, -1);
+ll solve(ll i, ll mod) {
+	return dp[i] % mod;
 }
-
-ll binpow(ll a, ll b, ll mod) // (finding a^b)%mod
-{
-    if(a==0||a==1) return a;
-    if(b==0) return 1;
-    ll ret= binpow(a,b/2,mod);
-    if(b%2) return (((ret*ret)%mod)*a)%mod;
-    else return (ret*ret)%mod;
+ll binpow(ll a, ll b, ll mod) {
+	ll res = 1;
+	a = a % mod;
+	while (b > 0) {
+		if (b & 1)
+			res = (res * a) % mod;
+		a = (a * a) % mod;
+		b = b >> 1;
+	}
+	return res;
 }
-ll combitorics(ll n, ll r, ll mod) // finding combinations (nCr)%mod
-{
-    ll numerator = factorial(n, mod);
-    ll denominator = (factorial(r , mod))%mod;
-    ll expo = binpow(denominator, mod-2, mod)%mod;
-    denominator = (factorial(n-r , mod))%mod;
-    expo= (expo*(binpow(denominator, mod-2, mod)%mod))%mod;
-    expo = (expo * numerator) % mod; // finding inverse
-
-    return expo;
+ll combitorics(ll n, ll r, ll mod) {
+	ll denominator = ((solve(r, mod)) * (solve(n - r, mod))) % mod;
+	ll numerator = solve(n, mod);
+	ll expo = binpow(denominator, mod - 2, mod);
+	expo = (expo * numerator) % mod;
+	return expo;
 }
-
 int main() {
-    ll t; cin >> t;
-    dp[0]=1;
-    ll mod = 1000000007;
+#ifndef ONLINE_JUDGE
+	freopen("input.txt", "r", stdin);
+	freopen("output.txt", "w", stdout);
+#endif
+	ll t; cin >> t;
+	ll mod = 1000000007;
+	dp[0] = 1;
+	for (ll i = 1; i < 400001; i++)dp[i] = (dp[i - 1] * i) % mod;
+	while (t--) {
+		ll k;
+		cin >> k;
 
-    factorial(mod);
-    while (t--) {
-        ll k;
-	@@ -48,4 +39,4 @@ int main() {
-       // cout << dp[2*k] << endl;
-        cout << combitorics(2*k,k,mod) << endl;
-    }
+		ll ans = 0;
+		for (ll i = 0; i <= 2 * k; i++) {
+			if (i - (k - 1) >= k || i - (k - 1) < 0)continue;
+			ans = (ans + combitorics(i, k - 1, mod)) % mod;
+		}
+		ans *= 2;
+		ans %= mod;
+		cout << ans << endl;
+	}
 }
