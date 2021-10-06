@@ -1,26 +1,26 @@
 [
     {
-        "Name": "your name",
-        "College": "college name",
-        "Passout Year": "YYYY",
+        "Name": "Aashita Chouhan",
+        "College": "IIIT Allahabad",
+        "Passout Year": "2024",
         "Song that defines your relationship status": [
-            "Name",
-            "link"
+            "Love Myself",
+            "https://open.spotify.com/track/4cH7XOPBjVUD5Mwo9F2TVz?si=7H9y9Bg3R-ay6Rdv6_t9hQ&utm_source=copy-link&dl_branch=1"
         ],
         "Your favourite hindi song": [
-            "Name",
-            "link"
+            "Agar Tum Sath Ho",
+            "https://open.spotify.com/track/3hkC9EHFZNQPXrtl8WPHnX?si=bi3taDmQQVG_i8IPIuHUHA&utm_source=copy-link&dl_branch=1"
         ],
         "Best youtube video you ever watched": [
-            "Name",
-            "link"
+            "Roomate-Stand Up Comedy Ft. Anubhav Singh Bassi",
+            "https://www.youtube.com/watch?v=qkxuFKqJXWY"
         ],
-        "Most useless skill you have": "add here",
-        "Codechef id": "url",
-        "Codeforces id": "url",
-        "Atcoder id": "url",
-        "Discord username": "username",
-        "Instagram": "url"
+        "Most useless skill you have": "Overthinking",
+        "Codechef id": "https://www.codechef.com/users/aashita_15",
+        "Codeforces id": "https://codeforces.com/profile/aashita_15",
+        "Atcoder id": "https://atcoder.jp/users/aashita_15",
+        "Discord username": "aashitachouhan",
+        "Instagram": "https://www.instagram.com/aashita_chouhan/"
     },
     {
         "Name": "your name",
