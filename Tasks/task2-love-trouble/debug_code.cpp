@@ -22,20 +22,21 @@ ll combitorics(ll n, ll r, ll mod) // finding combinations (nCr)%mod
     denominator = (factorial(n-r , mod))%mod;
     expo= (expo*(binpow(denominator, mod-2, mod)%mod))%mod;
     expo = (expo * numerator) % mod; // finding inverse
+
     return expo;
 }
+
 int main() {
     ll t; cin >> t;
     dp[0]=1;
     ll mod = 1000000007;
-    for (ll i = 1; i < 400010; i++) {
-        dp[i] = (dp[i - 1] * i) % mod;
-    }
+
+    factorial(mod);
     while (t--) {
         ll k;
         cin >> k;
-
-        ll ans= combitorics(2*k, k, mod)%mod;
-        cout << ans << "\n";
+        ll ans = 0;
+       // cout << dp[2*k] << endl;
+        cout << combitorics(2*k,k,mod) << endl;
     }
 }
