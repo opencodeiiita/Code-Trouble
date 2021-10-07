@@ -1,26 +1,26 @@
 [
     {
-        "Name": "your name",
-        "College": "college name",
-        "Passout Year": "YYYY",
+        "Name": "Shivansh Dwivedi",
+        "College": "Indian Institute of Information Technology Allahabad",
+        "Passout Year": "2024",
         "Song that defines your relationship status": [
             "Name",
             "link"
         ],
         "Your favourite hindi song": [
-            "Name",
-            "link"
+            "Tune jo na kaha",
+            "https://www.youtube.com/watch?v=dTu5dTEzVM4"
         ],
         "Best youtube video you ever watched": [
-            "Name",
-            "link"
+            "Sarojini Nagar | Excuse Me Brother | Stand-Up Comedy by Aakash Gupta",
+            "https://www.youtube.com/watch?v=KBZfnt80s54"
         ],
-        "Most useless skill you have": "add here",
-        "Codechef id": "url",
-        "Codeforces id": "url",
-        "Atcoder id": "url",
-        "Discord username": "username",
-        "Instagram": "url"
+        "Most useless skill you have": "I can sleep upto 16 hours a day.",
+        "Codechef id": "https://www.codechef.com/users/shivansh2741",
+        "Codeforces id": "https://codeforces.com/profile/shivansh2741",
+        "Atcoder id": "https://atcoder.jp/users/shivansh2741",
+        "Discord username": "Lumos",
+        "Instagram": "https://www.instagram.com/shivansh2741/"
     },
     {
         "Name": "your name",
