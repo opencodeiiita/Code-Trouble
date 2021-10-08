@@ -7,12 +7,21 @@ Dhananjay’s code is given in “solution.cpp” in Task-2 folder. But the code
 
 Sample Case :
 INPUT :
+
 5
+
 1 2      
+
 1 3      
+
 3 4      
+
 3 5      
+
 1 0 1 0 1
+
 OUTPUT :
+
 3
+
 If all the covid patient are shifted to house number 3, the sum of distances that all  patients travels is 2, it is smallest possible sum of distance possible among all cases.
