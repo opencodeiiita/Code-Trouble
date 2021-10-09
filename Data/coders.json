@@ -1,5 +1,5 @@
 [
-     {
+    {
         "Name": "Khush Kanjani",
         "College": "Indian Institute of Information Technology, Allahabad",
         "Passout Year": "2024",
@@ -22,7 +22,7 @@
         "Discord username": "Nokturnal",
         "Instagram": "https://www.instagram.com/justfine_kanjani/"
     },
-     {
+    {
         "Name": "Dheeraj bhardwaj",
         "College": "Indian Institute of Information Technology Allahabad",
         "Passout Year": "2024",
@@ -90,7 +90,6 @@
         "Atcoder id": "https://atcoder.jp/users/imjt007",
         "Discord username": "JamesThomas#3464",
         "Instagram": "https://www.instagram.com/james_thmas/"
-
     },
     {
         "Name": "Aman Verma",
@@ -863,7 +862,7 @@
             " Mann Mera ",
             " https://www.youtube.com/watch?v=0RGuMZt_-Pc "
         ],
-        "Best youtube video you ever watched": [ 
+        "Best youtube video you ever watched": [
             " Mann Mera ",
             "https://www.youtube.com/watch?v=0RGuMZt_-Pc"
         ],
@@ -1701,7 +1700,7 @@
         "Atcoder id": "https://atcoder.jp/users/saurav_yadav",
         "Discord username": "Pro-Grammer#2068",
         "Instagram": "https://www.instagram.com/saurav_k._yadav"
-   },
+    },
     {
         "Name": "your name",
         "College": "college name",
@@ -1886,7 +1885,7 @@
         "Discord username": "username",
         "Instagram": "url"
     },
-   {
+    {
         "Name": "S ANURAG REDDY",
         "College": "IIIT Allahabad",
         "Passout Year": "2024",
@@ -2392,7 +2391,7 @@
         "Discord username": "aquastorm",
         "Instagram": "https://www.instagram.com/rahul_sudo/"
     },
-     {
+    {
         "Name": "Kirti Singla",
         "College": "Indian Institute of Information Technology, Allahabad",
         "Passout Year": "2024",
@@ -2484,7 +2483,7 @@
         "Discord username": "osho",
         "Instagram": "https://www.instagram.com/yash_osho/"
     },
-     {
+    {
         "Name": "Kirtee",
         "College": "Indian Institute of Information Technology, Allahabad",
         "Passout Year": "2024",
@@ -2507,101 +2506,119 @@
         "Discord username": "Kirtee",
         "Instagram": "https://www.instagram.com/Kirtee_._prajapati/"
     },
-    
     {
-    "Name": "Nikita",
-    "College": "IIIT-Allahabad",
-    "Passout Year": "2024",
-    "Song that defines your relationship status": [
-      "To Be So Lonely",
-      "https://www.youtube.com/watch?v=6PPK-6FeJ9A"
-    ],
-    "Your favourite hindi song": [
-      "Tere Naina",
-      "https://www.youtube.com/watch?v=qYjPxdLIuk0"
-    ],
-    "Best youtube video you ever watched": [
-      "Girls like you maroon 5. Dad and daughter singing girls like you. Cute!!!!",
-      "https://www.youtube.com/watch?v=Aqd3qHWjOW0"
-    ],
-    "Most useless skill you have": "literally every single skill is useless",
-    "Codechef id": "https://www.codechef.com/users/nikita9344",
-    "Codeforces id": "https://codeforces.com/profile/NikitaSD",
-    "Atcoder id": "https://atcoder.jp/users/nikita934",
-    "Discord username": "idfk#7671",
-    "Instagram": "https://www.instagram.com/harrystyles/"
-  },
-         {
-            "Name": "Naman Shukla",
-            "College": "IIITA",
-            "Passout Year": "2024",
-            "Song that defines your relationship status": [
-                "You are the Reason - Calcum Scott",
-                "https://www.youtube.com/watch?v=ShZ978fBl6Y&ab_channel=CalumScottVEVO"
-            ],
-            "Your favourite hindi song": [
-                "Asal Mein - Darshan Raval",
-                "https://www.youtube.com/watch?v=beqprrnaKFc&ab_channel=IndieMusicLabel"
-            ],
-            "Best youtube video you ever watched": [
-                "TIMELAPSE OF THE FUTURE: A Journey to the End of Time",
-                "https://www.youtube.com/watch?v=uD4izuDMUQA&t=824s&ab_channel=melodysheep"
-            ],
-            "Most useless skill you have": "Every Skill",
-            "Codechef id": "https://www.codechef.com/users/naman_cr",
-            "Codeforces id": "https://codeforces.com/profile/naman-cr",
-            "Atcoder id": "https://atcoder.jp/users/namancr",
-            "Discord username": "NamanS",
-            "Instagram": "https://www.instagram.com/naman_shukla0/"
-
-},
-      {
-            "Name": "Botte shreya",
-            "College": "IIITA",
-            "Passout Year": "2024",
-            "Song that defines your relationship status": [
-                "sun raha hai na tu",
-                "https://www.youtube.com/watch?v=inEu2qQuGZ8"
-            ],
-            "Your favourite hindi song": [
-                "Har funn maula",
-                "https://www.youtube.com/watch?v=StpojvYoxvc"
-            ],
-            "Best youtube video you ever watched": [
-                "Piper a joy story",
-                "https://www.youtube.com/watch?v=iR-JFks6uI0&t=13s"
-            ],
-            "Most useless skill you have": "singing",
-            "Codechef id": "https://www.codechef.com/users/shreya_2108",
-            "Codeforces id": "https://codeforces.com/profile/shreya_2108",
-            "Atcoder id": "https://atcoder.jp/users/shreya_0508",
-            "Discord username": "jack sparrow#2201",
-            "Instagram": "https://www.instagram.com/shreya_2108/"
-
-},
-        {
-            "Name": "Vasanth Naik",
-            "College": "IIIT-Allahabad",
-            "Passout Year": "2024",
-            "Song that defines your relationship status": [
+        "Name": "Nikita",
+        "College": "IIIT-Allahabad",
+        "Passout Year": "2024",
+        "Song that defines your relationship status": [
+            "To Be So Lonely",
+            "https://www.youtube.com/watch?v=6PPK-6FeJ9A"
+        ],
+        "Your favourite hindi song": [
+            "Tere Naina",
+            "https://www.youtube.com/watch?v=qYjPxdLIuk0"
+        ],
+        "Best youtube video you ever watched": [
+            "Girls like you maroon 5. Dad and daughter singing girls like you. Cute!!!!",
+            "https://www.youtube.com/watch?v=Aqd3qHWjOW0"
+        ],
+        "Most useless skill you have": "literally every single skill is useless",
+        "Codechef id": "https://www.codechef.com/users/nikita9344",
+        "Codeforces id": "https://codeforces.com/profile/NikitaSD",
+        "Atcoder id": "https://atcoder.jp/users/nikita934",
+        "Discord username": "idfk#7671",
+        "Instagram": "https://www.instagram.com/harrystyles/"
+    },
+    {
+        "Name": "Naman Shukla",
+        "College": "IIITA",
+        "Passout Year": "2024",
+        "Song that defines your relationship status": [
+            "You are the Reason - Calcum Scott",
+            "https://www.youtube.com/watch?v=ShZ978fBl6Y&ab_channel=CalumScottVEVO"
+        ],
+        "Your favourite hindi song": [
+            "Asal Mein - Darshan Raval",
+            "https://www.youtube.com/watch?v=beqprrnaKFc&ab_channel=IndieMusicLabel"
+        ],
+        "Best youtube video you ever watched": [
+            "TIMELAPSE OF THE FUTURE: A Journey to the End of Time",
+            "https://www.youtube.com/watch?v=uD4izuDMUQA&t=824s&ab_channel=melodysheep"
+        ],
+        "Most useless skill you have": "Every Skill",
+        "Codechef id": "https://www.codechef.com/users/naman_cr",
+        "Codeforces id": "https://codeforces.com/profile/naman-cr",
+        "Atcoder id": "https://atcoder.jp/users/namancr",
+        "Discord username": "NamanS",
+        "Instagram": "https://www.instagram.com/naman_shukla0/"
+    },
+    {
+        "Name": "Botte shreya",
+        "College": "IIITA",
+        "Passout Year": "2024",
+        "Song that defines your relationship status": [
+            "sun raha hai na tu",
+            "https://www.youtube.com/watch?v=inEu2qQuGZ8"
+        ],
+        "Your favourite hindi song": [
+            "Har funn maula",
+            "https://www.youtube.com/watch?v=StpojvYoxvc"
+        ],
+        "Best youtube video you ever watched": [
+            "Piper a joy story",
+            "https://www.youtube.com/watch?v=iR-JFks6uI0&t=13s"
+        ],
+        "Most useless skill you have": "singing",
+        "Codechef id": "https://www.codechef.com/users/shreya_2108",
+        "Codeforces id": "https://codeforces.com/profile/shreya_2108",
+        "Atcoder id": "https://atcoder.jp/users/shreya_0508",
+        "Discord username": "jack sparrow#2201",
+        "Instagram": "https://www.instagram.com/shreya_2108/"
+    },
+    {
+        "Name": "Vasanth Naik",
+        "College": "IIIT-Allahabad",
+        "Passout Year": "2024",
+        "Song that defines your relationship status": [
             "Not afraid",
             "https://www.youtube.com/watch?v=j5-yKhDd64s"
-            ],
-            "Your favourite hindi song": [
+        ],
+        "Your favourite hindi song": [
             "desi kalakar",
             "https://www.youtube.com/watch?v=KhnVcAC5bIM"
-            ],
-            "Best youtube video you ever watched": [
+        ],
+        "Best youtube video you ever watched": [
             "cs50-algorithms",
             "https://www.youtube.com/watch?v=IFPedSR9wNU"
-            ],
-            "Most useless skill you have": "fun-talk",
-            "Codechef id": "https://www.codechef.com/users/vasanth_96",
-            "Codeforces id": "https://codeforces.com/profile/Guycholo_",
-            "Atcoder id": "https://atcoder.jp/users/guycholo",
-            "Discord username": "GuyCholo#1563",
-            "Instagram": "https://www.instagram.com/vasanth_o12/"
-            
-}   
-         
+        ],
+        "Most useless skill you have": "fun-talk",
+        "Codechef id": "https://www.codechef.com/users/vasanth_96",
+        "Codeforces id": "https://codeforces.com/profile/Guycholo_",
+        "Atcoder id": "https://atcoder.jp/users/guycholo",
+        "Discord username": "GuyCholo#1563",
+        "Instagram": "https://www.instagram.com/vasanth_o12/"
+    },
+    {
+        "Name": "Pratyush Ranjan",
+        "College": "IIIT-Allahabad",
+        "Passout Year": "2024",
+        "Song that defines your relationship status": [
+            "Not afraid",
+            "https://www.youtube.com/watch?v=j5-yKhDd64s"
+        ],
+        "Your favourite hindi song": [
+            "Love you Zindagi",
+            "https://www.youtube.com/watch?v=bw7bVpI5VcM"
+        ],
+        "Best youtube video you ever watched": [
+            "8 Minutes of Tenz AIMBOT Moments Montage",
+            "https://youtu.be/Ib4ASAGUc_c"
+        ],
+        "Most useless skill you have": "can watch a whole series in a day",
+        "Codechef id": "https://www.codechef.com/users/r_pratyush",
+        "Codeforces id": "https://codeforces.com/profile/Code_geek07",
+        "Atcoder id": "https://atcoder.jp/users/lazy_af07",
+        "Discord username": "ROOKIE07#1249",
+        "Instagram": "https://www.instagram.com/r_pratyush07/"
+    }
 ]
