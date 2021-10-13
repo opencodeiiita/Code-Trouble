@@ -1,5 +1,4 @@
-[
-    {
+[{
         "Name": "Khush Kanjani",
         "College": "Indian Institute of Information Technology, Allahabad",
         "Passout Year": "2024",
@@ -1311,27 +1310,27 @@
         "Instagram": "url"
     },
     {
-        "Name": "your name",
-        "College": "college name",
-        "Passout Year": "YYYY",
+        "Name": "shashirith.p",
+        "College": "Indian Institute of Information Technology, Allahabad",
+        "Passout Year": "2024",
         "Song that defines your relationship status": [
-            "Name",
-            "link"
+            "Little do you know",
+            "https://www.youtube.com/watch?v=4bzIpYiPUUo"
         ],
         "Your favourite hindi song": [
-            "Name",
-            "link"
+            "kun faya kun",
+            "https://www.youtube.com/watch?v=T94PHkuydcw"
         ],
         "Best youtube video you ever watched": [
-            "Name",
-            "link"
+            "Back to you-lyrical video",
+            "https://www.youtube.com/watch?v=ulNswX3If6U"
         ],
         "Most useless skill you have": "add here",
-        "Codechef id": "url",
-        "Codeforces id": "url",
-        "Atcoder id": "url",
-        "Discord username": "username",
-        "Instagram": "url"
+        "Codechef id": "https://www.codechef.com/users/shashirith",
+        "Codeforces id": "https://codeforces.com/profile/SHASHIRITH",
+        "Atcoder id": "https://atcoder.jp/users/marcos_7",
+        "Discord username": "marcos7#5367",
+        "Instagram": "https://www.instagram.com/shashirith_1601/"
     },
     {
         "Name": "your name",
@@ -2643,5 +2642,5 @@
         "Atcoder id": "https://atcoder.jp/users/Prxtikk",
         "Discord username": "prxtikk#2117",
         "Instagram": "https://www.instagram.com/prxtikk-18"
-    }     
+    }
 ]
